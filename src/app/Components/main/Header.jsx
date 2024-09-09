@@ -4,7 +4,7 @@ import Image from 'next/image';
 function Header() {
   return (
 <>
-<div className=" flex p-2  text-white   ">
+<div className=" flex p-2 mt-16  text-white   ">
     <div className="p-[25px] m-3 text-5xl font-extrabold	">Find The Best Electronics &nbsp; with CoolGuide</div>
     <div>
     <div className="flex flex-col">

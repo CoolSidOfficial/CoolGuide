@@ -1,16 +1,16 @@
 function navbar() {
   return (
-    <div className="flex m-1 bg-black h-20 ">
-        <div className="m-1">
-          <img className="size-10 " src="favicon.ico" alt="Icon" />
-          <h1>CoolGuide</h1>
+    <div className="flex place-content-between	 items-center	    p-2 bg-black h-15 ">
+        <div className="flex m-1 items-center">
+          <img className="size-14 " src="favicon.ico" alt="Icon" />
+          <span className="text-4xl text-white">CoolGuide</span>          
         </div>
-        <ul className="flex gap-x-6 -end	 text-white">
-            <li><a href="http://">Home</a></li>
-            <li><a href="http://">Our Glider</a></li>
-            <li><a href="http://">About</a></li>
-            <li> <a href="http://">Forums</a></li>
-            <li> <a href="http://">Contact Us</a></li>
+        <ul className="flex  text-2xl	 space-x-4 text-white ">
+            <li className=" hover:underline"><a href="http://">Home</a></li>
+            <li className=" hover:underline"><a href="http://">Our Glider</a></li>
+            <li className=" hover:underline"><a href="http://">About</a></li>
+            <li className=" hover:underline"> <a href="http://">Forums</a></li>
+            <li className=" hover:underline"> <a href="http://">Contact Us</a></li>
 
         </ul>
           

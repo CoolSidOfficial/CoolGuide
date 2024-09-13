@@ -4,7 +4,7 @@ function About() {
   return (
     <>
     <div className="flex text-white m-2	items-center flex-col ">
-      <span className="text-lg bg-[#1F2937] w-52 text-center  font-semibold rounded ">About CoolGuide</span>
+      <span className="text-lg bg-[#1F2937] w-52 text-center  font-semibold rounded-lg ">About CoolGuide</span>
       <span className="font-extrabold text-5xl m-2	">Helping You Find the Perfect Electronics</span>      
       <p className="text-xl  p-2 m-2">CoolGuide is a comprehensive website dedicated to helping users find the best electronics for their needs.<br/> Our team of experts curates product guides, reviews, and comparisons to ensure you make an informed decision.</p>      
 

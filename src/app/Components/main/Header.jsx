@@ -11,7 +11,7 @@ function Header() {
 
    <span className="text-2xl p-[25px] mt-1"> CoolGuide helps you find the perfect electronics for your needs. <br/>Browse our guide, search for products, and connect with other users to make an informed decision.         
     </span>
-    <button className="bg-white w-52 h-14 text-xl hover:bg-zinc-400 text-black ml-12 ">Choose Now </button>
+    <button className="bg-white w-52 h-14 text-xl hover:bg-zinc-400 text-black ml-5 ">Choose Now </button>
     </div>
 
 </div>

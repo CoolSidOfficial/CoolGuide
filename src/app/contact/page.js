@@ -9,7 +9,7 @@ function Contact() {
     <div  className='flex gap-72 m-32 w-64'>
       <div className='text-white' >
         <div className='text-6xl font-mono p-4 ' >Contact US</div>
-        <div className='text-4xl font-mono p-2'>Let's get in Touch.</div>
+        <div className='text-4xl font-mono p-2'>Let &apos;s get in Touch.</div>
         <div className='text-4xl font-mono p-2'>or just read out manually to </div>
         <a  className="text-4xl p-2 underline" href="mailto:coolsoft@protonmail.com">coolsoft@protonmail.com</a>
       </div>

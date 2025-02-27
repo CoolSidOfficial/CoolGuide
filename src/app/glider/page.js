@@ -12,7 +12,7 @@ export default function Glider() {
       <div>Micrzzo Center</div>
       <div>B&H Photo  </div>
       <div>Adorama</div>
-      <div>Fry's Electronics</div>
+      <div>Fry&apos;s Electronics</div>
       <div>CrutchField</div>
 
 

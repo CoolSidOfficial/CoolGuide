@@ -8,7 +8,7 @@ function Navbar() {
         </div>
         <ul className="flex  text-2xl	 space-x-4 text-white ">
             <li className=" hover:underline"><Link href="/">Home</Link></li>
-            <li className=" hover:underline"><Link href="/glider">Our Glider</Link></li>
+            <li className=" hover:underline"><Link href="/glider">Glider</Link></li>
             <li className=" hover:underline"><Link href="/">About</Link></li>
             <li className=" hover:underline"> <Link href="/">Forums</Link></li>
             <li className=" hover:underline"> <Link href="/contact">Contact Us</Link></li>

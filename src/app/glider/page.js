@@ -62,7 +62,7 @@ const steps = ["Budget", "Brand", "Specifications", "Review"];
 
           <div key={index} className ="px-10 m-10 h-32 text-white font-mono text-center py-2 bg-black  hover:border-2 rounded">
             <div>{each}</div>
-            <button onClick={handle_Click(each)}   className="bg-black text-2xl" >Select&gt;</button>
+            <button onClick={()=>handle_Click(each)}   className="bg-black text-2xl" >Select&gt;</button>
                </div>
           
         ))

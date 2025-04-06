@@ -8,7 +8,7 @@ function Featured() {
     
     <div className='text-4xl p-4 font-bold'>Check Out Our Featured Electronics</div>
     <div className=' p-2 text-xl text-[#BDCBD8]'>Explore our hand-picked selection of the latest and greatest electronics, curated by our team of experts.</div>
-    <div className="flex p-3">
+    <div className="xl:flex p-3">
         <a  className="m-5 p-3 flex flex-col" href="https://amzn.to/3MDPA6V">
         <Image  className='border  border-l-zinc-950 border-'
         src="/products/headphone.jpg" // Local image

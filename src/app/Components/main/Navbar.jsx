@@ -1,7 +1,7 @@
 import Link from "next/link"
 function Navbar() {
   return (
-    <div className="flex place-content-between	 items-center	    p-2 bg-black h-20 ">
+    <div className=" place-content-between	hidden  items-center	xl:flex    p-2 bg-black h-20 ">
         <div className="flex m-1 items-center">
           <img className="size-14 " src="favicon.ico" alt="Icon" />
           <span className="text-4xl text-white">CoolGuide</span>          

@@ -30,6 +30,45 @@ export default function CategoryPage({ params }) {
         { name: "Philips AC2887", price: "$199" },
       ],
     },
+    "air-conditioner": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },"drones": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },"fridge": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },
+    "earphones": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },"tv(televison)": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },
+    "printers": {
+      filters: ["Filter Type", "Coverage Area", "Noise Level"],
+      products: [
+        { name: "Dyson Pure Cool", price: "$499" },
+        { name: "Philips AC2887", price: "$199" },
+      ],
+    },
   };
 
   const categoryInfo = categoryData[category] || null;

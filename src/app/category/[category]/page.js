@@ -53,7 +53,7 @@ function handleclick(val){
     <div className=" text-white text-center">{filter_options[selected_category].heading}</div>
     <div className="grid grid-cols-2 gap-6 m-6 mx-10 text-5xl ">
 
-    {filter_options[category]["options"][current_filter_key].map((value)=>(<button onClick={()=>handleclick({value})} className="bg-black h-auto w-a font-serif p-4 cursor-pointer hover:bg-slate-950"> {value} </button>))
+    {filter_options[category]["options"][current_filter_key].map((value)=>(<button   key={value} onClick={()=>handleclick({value})} className="bg-black h-auto w-a font-serif p-4 cursor-pointer hover:bg-slate-950"> {value} </button>))
 
 }
 </div>

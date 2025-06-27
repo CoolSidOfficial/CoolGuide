@@ -43,10 +43,10 @@ function App() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Why We Started CoolGuide</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Remember the last time you spent hours comparing products, reading countless reviews, and still feeling unsure about your tech purchase? We've been there too.
+               Remember the last time you spent hours comparing products, reading countless reviews, and still feeling unsure about your tech purchase? We &apos; ve been there too.
               </p>
               <p className="text-gray-600 dark:text-gray-300">
-                That's why we built CoolGuide — to transform the way you make tech decisions. No more endless tabs, conflicting reviews, or post-purchase regrets. Just straightforward, personalized recommendations backed by real community discussions.
+                That&apos;s why we built CoolGuide — to transform the way you make tech decisions. No more endless tabs, conflicting reviews, or post-purchase regrets. Just straightforward, personalized recommendations backed by real community discussions.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -142,7 +142,7 @@ function App() {
             Join our community of tech enthusiasts and never make a regrettable purchase again.
           </p>
           <button className="bg-white text-blue-600 dark:bg-gray-900 dark:text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300">
-            Get Started — It's Free
+            Get Started — It&apos;s Free
           </button>
         </div>
       </div>

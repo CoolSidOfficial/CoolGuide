@@ -7,87 +7,63 @@ import Footer from "@/app/Components/Footer";
 export default function CategoryPage({ params }) {
   const router = useRouter();
   const { category } = params;
+  
+  // useEffect(() => {
+  //   if (!categoryInfo) {
+  //     router.push("/404");
+  //   }
+  // }, [categoryInfo]);
 
-  const categoryData = {
-    "powerbanks": {
-      filters: ["Capacity (mAh)", "Fast Charging", "Number of Ports"],
-      products: [
-        { name: "Anker 20000mAh", price: "$40" },
-        { name: "Xiaomi 10000mAh", price: "$25" },
-      ],
-    },
-    "laptop": {
-      filters: ["Processor", "RAM", "Storage", "Graphics"],
-      products: [
-        { name: "MacBook Air M2", price: "$999" },
-        { name: "Dell XPS 15", price: "$1299" },
-      ],
-    },
-    "air-purifier": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },
-    "air-conditioner": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },"drones": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },"fridge": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },
-    "earphones": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },"tv(televison)": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },
-    "printers": {
-      filters: ["Filter Type", "Coverage Area", "Noise Level"],
-      products: [
-        { name: "Dyson Pure Cool", price: "$499" },
-        { name: "Philips AC2887", price: "$199" },
-      ],
-    },
-  };
+  const filter_options={
 
-  const categoryInfo = categoryData[category] || null;
+    "air-purifier":{
+      "heading":"Choose By Size",
+      "options":{
+       "By-Size" : ["Small Room ","Medium Room","Large Room","Car/P ortable"],
+       "By-Concern":["allergies","pet","pollution","smell","all of the above"],
+       "Budget-Range":["1k-4k","4k-8k","8k-16k","16k Above"] 
+      }
+        
+       
+    },
 
-  useEffect(() => {
-    if (!categoryInfo) {
-      router.push("/404");
-    }
-  }, [categoryInfo]);
+  }
+const selected_category=category
+const[step,setStep]=useState(0)
+const filter_key=Object.keys(filter_options[selected_category]["options"])
+const current_filter_key=filter_key[step]
 
-  return (
+
+function handleclick(val){
+   setStep(step+1)
+}
+
+  return (  
     <div className="flex flex-col min-h-screen">
       <Navbar />
 
       {/* Add flex-grow here to push footer down */}
       <main className="flex-grow">
-        <div className="text-center text-white text-4xl my-6">
-          {categoryInfo ? `Explore ${category.replace("-", " ")}` : "Category Not Found"}
-        </div>
+           <div className="text-white text-4xl mx-4 m-10  xl:m-14  text-center font-mono">
+            Choose the best {category} according to your needs !!!
+           </div>
+
+{selected_category &&(
+  <div className="font-mono text-white text-3xl ">
+    <div className=" text-white text-center">{filter_options[selected_category].heading}</div>
+    <div className="grid grid-cols-2 gap-6 m-6 mx-10 text-5xl ">
+
+    {filter_options[category]["options"][current_filter_key].map((value)=>(<button onClick={()=>handleclick({value})} className="bg-black h-auto w-a font-serif p-4 cursor-pointer hover:bg-slate-950"> {value} </button>))
+
+}
+</div>
+    
+  </div>
+)
+}
+           
+
+
       </main>
 
       <Footer />

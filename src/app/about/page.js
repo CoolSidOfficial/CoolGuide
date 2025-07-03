@@ -19,7 +19,7 @@ import { Users, Zap, MessageCircle, ShieldCheck, Laptop, Battery, Fan } from 'lu
 function App() {
   return (
       
-      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-950 ">
                 <Navbar/>
       {/* Hero Section */}
       <div className="relative overflow-hidden">
@@ -141,9 +141,9 @@ function App() {
           <p className="text-xl text-white/90 mb-8">
             Join our community of tech enthusiasts and never make a regrettable purchase again.
           </p>
-          <button className="bg-white text-blue-600 dark:bg-gray-900 dark:text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300">
+          <a href="/glider" className="bg-white text-blue-600 dark:bg-gray-900 dark:text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300">
             Get Started — It&apos;s Free
-          </button>
+          </a>
         </div>
       </div>
       <Footer/>

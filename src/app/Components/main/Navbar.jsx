@@ -15,8 +15,8 @@ function Navbar() {
         <ul className="flex  text-2xl	 space-x-4 text-white ">
             <li className=" hover:underline"><Link href="/">Home</Link></li>
             <li className=" hover:underline"><Link href="/glider">Glider</Link></li>
-            <li className=" hover:underline"><Link href="/">About</Link></li>
-            <li className=" hover:underline"> <Link href="/">Forums</Link></li>
+            <li className=" hover:underline"><Link href="/about">About</Link></li>
+            <li className=" hover:underline"> <Link href="/buying-guide">Guide</Link></li>
             <li className=" hover:underline"> <Link href="/contact">Contact Us</Link></li>
 
         </ul>
@@ -44,8 +44,8 @@ function Navbar() {
         <div className="mt-3 bg-gray-700 rounded-md flex flex-col items-center py-4 space-y-4">
           <a href="/" className="hover:text-gray-300">Home</a>
           <a href="/glider" className="hover:text-gray-300">Glider</a>
-          <a href="#" className="hover:text-gray-300">About</a>
-          <a href="/forums" className="hover:text-gray-300">Forums</a>
+          <a href="/guide" className="hover:text-gray-300">About</a>
+          <a href="/buying-guide" className="hover:text-gray-300">Guide</a>
           <a href="/contact" className="hover:text-gray-300">Contact</a>
 
 

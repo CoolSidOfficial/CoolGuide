@@ -45,7 +45,7 @@ const steps = ["Budget", "Brand", "Specifications", "Review"];
     <Navbar/>
     <div className=" bg-slate-900 xl:bg-inherit  text-4xl  text-white xl:m-2 ">
     {/* <div className="text-center m-4 font-mono font-semibold">CoolGuide    </div> */}
-    <div className="text-center p-4">Find the perfect electronics for your needs
+    <div className="text-center font-mono font-semibold p-4">Find the perfect electronics for your needs
     </div>
     
     <div className="flex items-center justify-between mb-6 relative">
@@ -53,7 +53,7 @@ const steps = ["Budget", "Brand", "Specifications", "Review"];
 
 </div>
 
-      <div className="text-center text-4xl m-7">
+      <div className="text-center  font-mono  font-semibold text-4xl m-7">
       Choose an Electronics Category
       </div>
       <div className="grid xl:grid-cols-3 xl:gap-6 text-center ">

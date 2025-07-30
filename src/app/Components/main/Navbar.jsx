@@ -17,6 +17,8 @@ function Navbar() {
             <li className=" hover:underline"><Link href="/glider">Glider</Link></li>
             <li className=" hover:underline"><Link href="/about">About</Link></li>
             <li className=" hover:underline"> <Link href="/buying-guide">Guide</Link></li>
+            <li className=" hover:underline"> <Link href="https://forums-self.vercel.app/">Forum</Link></li>
+
             <li className=" hover:underline"> <Link href="/contact">Contact Us</Link></li>
 
         </ul>

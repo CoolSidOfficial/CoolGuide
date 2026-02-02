@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/main/Navbar'
 import Footer from '../Components/Footer'
 import Link from 'next/link'
-import Image from 'next/image'
+  import Image from 'next/image'
 function guide() {
   const Images=[
     {id:1,src:"/buying-guide/Air-Purifier.png",alt:"purifier-image"},

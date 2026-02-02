@@ -28,7 +28,7 @@ function guide() {
           </div>
           <div className='grid grid-cols-3 gap-4 text-4xl m-4'>
            {Images.map((item)=>(
-            <Link key={item.id} href="">
+            <Link key={item.id} href="/buying-guide/air-purifier">
 
             <Image
             src={item.src}

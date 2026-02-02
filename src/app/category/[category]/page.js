@@ -1,12 +1,14 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { use } from "react";
+
 import { useEffect, useState } from "react";
 import Navbar from "@/app/Components/main/Navbar";
 import Footer from "@/app/Components/Footer";
 
 export default function CategoryPage({ params }) {
   const router = useRouter();
-  const { category } = params;
+  const { category } = use(params);
   
   // useEffect(() => {
   //   if (!categoryInfo) {

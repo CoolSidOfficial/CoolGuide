@@ -136,6 +136,7 @@ const filter_key=Object.keys(filter_options[selected_category]["options"])
 const current_filter_key=filter_key[step]
 
 
+
 function handleclick(val){
    setSelected(prev => ({
     ...prev,
@@ -151,7 +152,7 @@ console.log(selected)
       {/* Add flex-grow here to push footer down */}
       <main className="flex-grow">
            <div className="text-white text-4xl mx-4 m-10  xl:m-14  text-center font-mono">
-            Choose the best {category} according to your needs !!!
+            Choose the best {category} according to your needs !!
            </div>
 
 {selected_category &&(
@@ -159,7 +160,7 @@ console.log(selected)
     <div className=" text-white text-center">On the basis of {current_filter_key}</div>
     <div className="grid grid-cols-2 gap-6 m-6 mx-10 text-5xl ">
 
-    {filter_options[category]["options"]?.[current_filter_key]?.map((value)=>(<button   key={value} onClick={()=>handleclick({value})} className="bg-black h-auto w-a font-serif p-4 cursor-pointer hover:bg-slate-500 hover:border-gray-50"> {value} </button>))
+    {filter_options[category]["options"]?.[current_filter_key]?.map((value)=>(<button   key={value} onClick={()=>handleclick(value)} className="bg-black h-auto w-a font-serif p-4 cursor-pointer hover:bg-slate-500 hover:border-gray-50"> {value} </button>))
 
 }
 </div>

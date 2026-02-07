@@ -19,7 +19,7 @@ const [button_text,set_button_text]=useState([
   "Fridge",
   "Laptop",
   "Earphones",
-  "TV (Television)",
+  "TV(Television)",
   "Printers",
   "Powerbanks",
   
@@ -43,7 +43,7 @@ const steps = ["Budget", "Brand", "Specifications", "Review"];
 
     <>
     <Navbar/>
-    <div className=" bg-slate-900 xl:bg-inherit  text-4xl  text-white xl:m-2 ">
+    <div className=" bg-slate-900 xl:bg-inherit  text-3xl  text-white xl:m-2 ">
     {/* <div className="text-center m-4 font-mono font-semibold">CoolGuide    </div> */}
     <div className="text-center font-mono font-semibold p-4">Find the perfect electronics for your needs
     </div>

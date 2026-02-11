@@ -145,6 +145,27 @@ function handleclick(val){
    setStep(step+1)
 }
 console.log(selected)
+
+if (step >= filter_key.length) {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow text-white text-center mt-20">
+        <h2 className="text-4xl font-mono">
+           Filtering Complete! 
+        </h2>
+
+        <div className="mt-10 text-xl">
+          <p>Bring back the best options  for you</p>
+         
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+
   return (  
     <div className="flex flex-col min-h-screen">
       <Navbar />

@@ -1,37 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 CoolGuide
 
-## Getting Started
+CoolGuide is a modern web platform designed to help users **discover the best electronics products** through guides, search, and categorized browsing.  
+The goal of this project is to simplify the process of choosing electronics by providing structured information and an easy-to-use interface.
 
-First, run the development server:
+---
+
+## 📌 Features
+
+- 🔎 **Search Electronics** – Quickly search for electronics products.
+- 📚 **Product Guides** – Learn about devices before purchasing.
+- 📂 **Category Browsing** – Explore products by category:
+  - Laptops
+  - Smartphones
+  - TVs
+  - Headphones
+  - Refrigerators
+  - Air Conditioners
+- 📱 **Responsive Design** – Works on mobile, tablet, and desktop.
+- 🎨 **Clean UI** – Built with a modern interface.
+
+---
+## 🔗 Project Repositories
+
+CoolGuide is built using multiple repositories for different services.
+
+### 🌐 CoolGuide Backend
+Main backend API that powers the CoolGuide platform.
+
+Repository:  
+https://github.com/CoolSidOfficial/coolguide_backend
+
+---
+
+### 💬 Forums Frontend
+Frontend interface for the community discussion forums.
+
+Repository:  
+https://github.com/CoolSidOfficial/FORUMS
+
+---
+
+### 🛠 Forums Backend
+Backend API for handling forum posts, users, and discussions.
+
+Repository:  
+https://github.com/CoolSidOfficial/forums-backend
+
+---
+
+### ⚡ Forums Chat Backend
+Real-time chat backend for forum messaging.
+
+Repository:  
+https://github.com/CoolSidOfficial/coolforums-chatbackend
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Vite**
+- **Node.js**
+
+---
+
+## 📂 Project Structure
+coolguide/
+│
+├── public/
+│
+├── src/
+│ ├── Components/
+│ │ ├── main/
+│ │ │ └── Navbar.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── Pages/
+│ │ ├── Home.jsx
+│ │ └── Contact.jsx
+│ │
+│ ├── Sections/
+│ │ └── Explorer.jsx
+│ │
+│ ├── App.jsx
+│ └── main.jsx
+│
+└── package.json
+
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/yourusername/coolguide.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For questions or suggestions:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# CoolGuide
+Email: siddhantjainmvm@gmail.com

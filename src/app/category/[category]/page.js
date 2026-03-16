@@ -44,7 +44,7 @@ export default function CategoryPage({ params }) {
   async function sendData() {
     try {
 
-      const res = await fetch("http://localhost:8000/recommend", {
+      const res = await fetch("https://coolguide-ml.20.193.152.44.nip.io/recommend", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

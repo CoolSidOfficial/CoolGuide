@@ -1,3 +1,6 @@
+import React from "react";
+import Link from "next/link";
+
 function Explorer() {
   return (
     <>
@@ -29,29 +32,48 @@ function Explorer() {
 
         {/* Category Buttons */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4 mt-10">
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            Laptops
-          </button>
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            Smartphones
-          </button>
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            TVs
-          </button>
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            Headphones
-          </button>
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            Fridge
-          </button>
-          <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2">
-            ACs
-          </button>
+          
+          <Link href="/buying-guide/laptop">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              Laptops
+            </button>
+          </Link>
+
+          <Link href="/buying-guide/air-purifier">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              Air-Purifier
+            </button>
+          </Link>
+
+          <Link href="/buying-guide/tv">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              TVs
+            </button>
+          </Link>
+
+          <Link href="/buying-guide/earphones">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              Headphones
+            </button>
+          </Link>
+
+          <Link href="/buying-guide/fridge">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              Fridge
+            </button>
+          </Link>
+
+          <Link href="/buying-guide/ac">
+            <button className="bg-white rounded-md hover:bg-slate-300 px-6 py-2 w-full">
+              ACs
+            </button>
+          </Link>
+
         </div>
 
       </div>
     </>
-  )
+  );
 }
 
-export default Explorer
+export default Explorer;

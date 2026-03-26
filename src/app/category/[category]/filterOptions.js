@@ -12,28 +12,69 @@ const  filterOptions = {
   },
 
   "fridge": {
-    options: {
-      "Capacity": ["Single Door", "Double Door", "Side-by-Side", "Mini Fridge"],
-      "Family Size": ["1-2 People", "3-4 People", "5+ People"],
-      "Energy Rating": ["3 Star", "4 Star", "5 Star"],
-      "Freezer Type": ["Top Freezer", "Bottom Freezer", "Convertible", "No Preference"],
-      "Budget-Range": ["10k-20k", "20k-30k", "30k-50k", "50k+"],
-      "Machine-Brand": ["Samsung", "LG", "Whirlpool", "Godrej"],
-      "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
-    }
-  },
-
+  "options": {
+    "Type": ["Single Door", "Double Door", "Side-by-Side", "Mini Fridge"],
+    "Family Size": ["1-2 People", "3-4 People", "5+ People"],
+    "Energy Rating": ["3 Star", "4 Star", "5 Star"],
+    "Freezer Type": ["Top Freezer", "Bottom Freezer", "Convertible", "No Preference"],
+    "Budget-Range": ["10k-20k", "20k-30k", "30k-50k", "50k+"],
+    "Machine-Brand": ["Samsung", "LG", "Whirlpool", "Godrej"],
+    "Warranty": ["1 Year", "2 Years", "5 Years", "Don't care"]
+  }
+},
   "laptop": {
-    options: {
-      "Usage Type": ["Student", "Professional", "Gaming", "Content Creation"],
-      "Performance": ["Basic", "Mid-Range", "High-End"],
-      "Battery Life": ["<5 hrs", "5-8 hrs", ">8 hrs"],
-      "Screen Size": ["13\"", "15\"", "17\"", "No Preference"],
-      "Budget-Range": ["30k-50k", "50k-80k", "80k+"],
-      "Machine-Brand": ["Apple", "Dell", "HP", "Asus", "Lenovo"],
-      "Warranty": ["1 Year", "2 Years", "Don't care"]
-    }
-  },
+  "options": {
+    "Usage Type": [
+      "Student / Basic Work", 
+      "Office / Professional", 
+      "Gaming", 
+      "Content Creation / Video Editing", 
+      "Light Travel / Portable Use"
+    ],
+    "Performance Level": [
+      "Basic (Web, Docs, Videos)", 
+      "Medium (Multitasking, Office Apps)", 
+      "High (Gaming / Heavy Software)", 
+      "Professional (Video Editing, 3D Modeling)"
+    ],
+    "Battery Life Needed": [
+      "<5 hours",
+      "5-8 hours",
+      "8-10 hours",
+      "10+ hours"
+    ],
+    "Screen Preference": [
+      "Compact / Portable (13-14\")", 
+      "Standard (15\")", 
+      "Large / Multi-tasking (16-17\")",
+      "High Color Accuracy / Editing",
+      "No Preference"
+    ],
+    "Budget-Range": [
+      "30k-50k INR", 
+      "50k-80k INR", 
+      "80k-1.2L INR", 
+      "1.2L+ INR"
+    ],
+    "Brand Preference": [
+      "Apple", "Dell", "HP", "Asus", "Lenovo", "MSI", "Acer", "Razer"
+    ],
+    "Portability": [
+      "Very Portable (<1.5kg)", 
+      "Moderate (1.5-2.5kg)", 
+      "Heavy / Desktop Replacement"
+    ],
+    "Storage Type": [
+      "SSD (Faster Performance)", 
+      "HDD (Cheaper / High Capacity)", 
+      "SSD + HDD Combo", 
+      "No Preference"
+    ],
+    "Warranty": [
+      "1 Year", "2 Years", "3+ Years", "Don't care"
+    ]
+  }
+},
 
   "earphones": {
     options: {

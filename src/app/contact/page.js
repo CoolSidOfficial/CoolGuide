@@ -23,7 +23,7 @@ function Contact() {
     e.preventDefault()
 
     try {
-      const res = await fetch("https://coolguide.20.193.152.44.nip.io/contact", {
+      const res = await fetch("https://recommender.168-144-22-229.nip.io/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

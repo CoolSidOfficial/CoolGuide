@@ -11,7 +11,7 @@ const categories = [
   { label: "Laptop",          icon: "💻", slug: "laptop" },
   { label: "Earphones",       icon: "🎧", slug: "earphones" },
   { label: "TV",              icon: "📺", slug: "tv-television" },
-  { label: "Printers",        icon: "🖨️", slug: "printers" },
+  { label: "Printers",        icon: "🖨️", slug: "printer" },
   { label: "Powerbanks",      icon: "🔋", slug: "powerbanks" },
 ]
 

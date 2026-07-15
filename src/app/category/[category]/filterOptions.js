@@ -76,17 +76,75 @@ const  filterOptions = {
   }
 },
 
-  "earphones": {
-    options: {
-      "Type": ["Wired", "Wireless", "True Wireless"],
-      "Use Case": ["Calling", "Workout", "Gaming", "Music", "All-Purpose"],
-      "Noise Cancellation": ["Yes", "No", "Doesn't Matter"],
-      "Battery Life": ["<6 hrs", "6-12 hrs", "12+ hrs"],
-      "Budget-Range": ["1k-2k", "2k-5k", "5k+"],
-      "Machine-Brand": ["Sony", "Apple", "boAt", "JBL", "Nothing"],
-      "Warranty": ["6 Months", "1 Year", "Don't care"]
-    }
-  },
+ "earphones": {
+  options: {
+    "Type": [
+      "Wired",
+      "Neckband",
+      "True Wireless (TWS)"
+    ],
+
+    "Use Case": [
+      "Music",
+      "Gaming",
+      "Calls / Meetings",
+      "Workout",
+      "Travel",
+      "All-Purpose"
+    ],
+
+    "Sound Preference": [
+      "Balanced",
+      "Bass Heavy",
+      "Treble Focused"
+    ],
+
+    "Noise Cancellation": [
+      "Yes (ANC)",
+      "No",
+      "Doesn't Matter"
+    ],
+
+    "Battery Life": [
+      "<6 hours",
+      "6-12 hours",
+      "12+ hours"
+    ],
+
+    "Water Resistance": [
+      "IPX4",
+      "IPX5",
+      "IPX7",
+      "Not Important"
+    ],
+
+    "Budget-Range": [
+      "Below 2k INR",
+      "2k-5k INR",
+      "5k-10k INR",
+      "10k+ INR"
+    ],
+
+    "Brand Preference": [
+      "Sony",
+      "Apple",
+      "Samsung",
+      "Nothing",
+      "OnePlus",
+      "JBL",
+      "boAt",
+      "Realme",
+      "CMF"
+    ],
+
+    "Warranty": [
+      "6 Months",
+      "1 Year",
+      "2 Years",
+      "Don't Care"
+    ]
+  }
+},
 
   "tv-(television)": {
     options: {
@@ -100,7 +158,7 @@ const  filterOptions = {
     }
   },
 
-  "printers": {
+  "printer": {
     options: {
       "Type": ["Inkjet", "Laser", "Thermal", "Dot Matrix"],
       "Functionality": ["Print Only", "All-in-One (Print, Scan, Copy)"],

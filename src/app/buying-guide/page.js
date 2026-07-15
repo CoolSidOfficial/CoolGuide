@@ -11,7 +11,7 @@ function guide() {
     {id:4,src:"/buying-guide/fridge.png",alt:"Fridge-Image",  slug:"fridge"},
     {id:5,src:"/buying-guide/Earphones.png",alt:"Earphones-Image" ,slug:"earphones"},
     {id:6,src:"/buying-guide/tv.png",alt:"Tv-Image",slug:"tv"},
-    {id:7,src:"/buying-guide/printers.png",alt:"Printers-Image",slug:"printers"},
+    {id:7,src:"/buying-guide/printers.png",alt:"Printers-Image",slug:"printer"},
     {id:8,src:"/buying-guide/drones.png",alt:"Drones-Image",slug:"drones"},
     {id:9,src:"/buying-guide/powerbanks.png",alt:"Powerbank-Image",slug:"powerbanks"},
 

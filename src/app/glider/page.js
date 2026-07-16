@@ -10,7 +10,7 @@ const categories = [
   { label: "Fridge",          icon: "🧊", slug: "fridge" },
   { label: "Laptop",          icon: "💻", slug: "laptop" },
   { label: "Earphones",       icon: "🎧", slug: "earphones" },
-  { label: "TV",              icon: "📺", slug: "tv-television" },
+  { label: "TV",              icon: "📺", slug: "tv-(television)" },
   { label: "Printers",        icon: "🖨️", slug: "printer" },
   { label: "Powerbanks",      icon: "🔋", slug: "powerbanks" },
 ]

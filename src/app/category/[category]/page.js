@@ -87,12 +87,6 @@ export default function CategoryPage({ params }) {
 
                 <h3 className="text-2xl mb-4">{product.name}</h3>
 
-                <p>Brand: {product["Machine-Brand"]}</p>
-                <p>Room: {product["By-Size"]}</p>
-                <p>Concern: {product["By-Concern"]}</p>
-                <p>Budget: {product["Budget-Range"]}</p>
-                <p>Warranty: {product["Warranty"]}</p>
-
                 <a
                   href={product.product_link}
                   target="_blank"
